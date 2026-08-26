@@ -1,5 +1,4 @@
-Walter Mauro Moncada Rubio 26/08/2026 10:18 a. m. • <?php
-
+<?php
 function conexion(){
 
 $host = "host=dpg-da7fkch42hec73baoa0g-a.oregon-postgres.render.com";
