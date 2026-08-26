@@ -10,6 +10,12 @@ $conexion = conexion();
     <title>Registrando datos with Railway</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Oculta marcas de agua o textos inyectados por extensiones antes del body */
+        body > div:first-child:not(.container-fluid):not(.container):not(#app) {
+            display: none !important;
+        }
+    </style>
 </head>
 <body>
 
@@ -17,7 +23,7 @@ $conexion = conexion();
     <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
         <div class="container-fluid px-4">
             <a class="navbar-link navbar-brand d-flex align-items-center text-dark text-decoration-none fw-bold" href="#">
-                <span class="me-2">ඞ</span> Index
+                <img src="index2.png" alt="Among Us" width="28" height="28" class="me-2"> Index
             </a>
             <div class="d-flex ms-auto">
                 <a class="nav-link px-3 text-secondary" href="index.php">Registrar</a>
@@ -71,7 +77,9 @@ $conexion = conexion();
 
         <!-- Footer -->
         <div class="text-center text-muted mt-5 pt-4 border-top">
-            <div class="mb-1">ඞ</div>
+            <div class="mb-1">
+                <img src="index2.png" alt="Among Us" width="24" height="24">
+            </div>
             <small>© 2023-1</small>
         </div>
     </div>
